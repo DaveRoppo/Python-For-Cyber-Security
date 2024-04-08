@@ -122,6 +122,38 @@ The following home lab configuration and accompanying exercises were inspired by
 ![](img/dr2.png) <br>
 ######
 ![](img/dr1.png) <br>
+######
+![](console.png) <br>
+######
+![](console2.png) <br>
+######
+![](svc.png) <br>
+######
+![](svc2.png) <br>
+######
+![](svc3.png) <br>
+######
+![](svc4.png) <br>
+######
+![](svc5.png) <br>
+######
+![](svc6.png) <br>
+######
+![](yara-mem.png) <br>
+######
+![](yara-dr.png) <br>
+######
+![](yara-rule1.png) <br>
+######
+![](yara-rule2.png) <br>
+######
+![](yara-rule3.png) <br>
+######
+![](yara-rule4.png) <br>
+######
+![](yara-rule5.png) <br>
+######
+![](yara-rule6.png) <br>
 
 
 
