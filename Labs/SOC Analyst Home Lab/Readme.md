@@ -39,8 +39,6 @@ The following home lab configuration and accompanying exercises were inspired by
 ###### Starting a Shell using our Sliver C2 payload
 ![](img/exit.png) <br>
 ###### Running commands (info, whoami, etc.) using our C2 Connection
-![](img/info1.png) <br>
-###### Running commands (info, whoami, etc.) using our C2 Connection
 ![](img/implant4-info.png) <br>
 ###### Using our shell to view our permissions on our compromised Windows VM
 ![](img/proc.png) <br>
