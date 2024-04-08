@@ -27,80 +27,84 @@ The following home lab configuration and accompanying exercises were inspired by
 - VirusTotal
 - Mitre ATT&CK
 
-## Actions
-######
+## Part 1: Generating C2 Telemetry
+## Part 2: Crafting Detection Rules
+## Part 2: Crafting Response Rules
+## Part 4: Tuning False Positives
+## Part 5: Yara Scanning
+###### Running Sliver Server on our Ubuntu Vm
 ![](img/sl1.png) <br>
-######
+###### Running Sliver Server on our Ubuntu Vm
 ![](img/sl2.png) <br>
-######
+###### Running commands (info, whoami, etc.) using our C2 Connection
 ![](img/info1.png) <br>
-######
+###### Running commands (info, whoami, etc.) using our C2 Connection
 ![](img/implant4-info.png) <br>
-######
+###### Starting a HTTP listener using Sliver on the Ubuntu VM (READY)
 ![](img/implant4-4.png) <br>
-######
+###### Running our C2 Payload (READY_GONG.exe) on the victim Windows host
 ![](img/implant4-3.png) <br>
-######
+###### Generating and verifying our Sliver C2 payload on the Ubuntu Vm (READY)
 ![](img/implant4-2.png) <br>
-######
+###### Delete
 ![](img/implant4-1.png) <br>
-######
+###### Delete
 ![](img/implant4.png) <br>
-######
+###### Delete
 ![](img/implant3.png) <br>
-######
+###### Starting a HTTP listener using Sliver on the Ubuntu VM (FIT)
 ![](img/implant2.png) <br>
-######
+###### Running our C2 Payload (READY_GONG.exe) on the victim Windows host (FIT)
 ![](img/implant1-3.png) <br>
-######
+###### Generating and verifying our Sliver C2 payload on the Ubuntu Vm (FIT)
 ![](img/implant1-2.png) <br>
-######
+###### Delete
 ![](img/implant1-1.png) <br>
-######
+###### Starting a HTTP listener using Sliver on the Ubuntu VM (FIT)
 ![](img/implant1.png) <br>
-######
+###### LimaCharlie response rule blocking our actions
 ![](img/http.png) <br>
-######
+###### Starting a Shell using our Sliver C2 payload
 ![](img/exit.png) <br>
-######
+###### Process Tree on our compromised Windows VM
 ![](img/shell.png) <br>
-######
+###### Using our shell to view our permissions on our compromised Windows VM
 ![](img/proc.png) <br>
-######
+###### Delete
 ![](img/priv-info.png) <br>
-######
+###### Using our shell to view running processes on our compromised Windows VM
 ![](img/priv.png) <br>
-######
+###### Viewing the timeline in LimaCharlie displaying our C2 payload being executed
 ![](img/netstat.png) <br>
-######
+###### Running "vssadmin delete shadows /all" on our compromised Windows VM (Typical during ransomware infections)
 ![](img/lsass.png) <br>
-######
+###### Using the VirusTotal intergration on LimaCharlie to search the hash of our C2 Payload
 ![](img/vs1.png) <br>
-######
+###### VirusTotl showing no results for the C2 payload doesn't mean we're in the clear!
 ![](img/vt1.png) <br>
-######
+###### LimaCharlie detection rule firing following the deletion of shadow copies on our compromised host
 ![](img/vt2.png) <br>
-######
+###### LimaCharlie detection rule firing following the deletion of shadow copies on our compromised host
 ![](img/lcvs.png) <br>
-######
+###### LimaCharlie timeline showing the deletion of shadow copies command being run
 ![](img/lcvs2.png) <br>
-######
+###### LimaCharlie shadow copies deletion detection displaying references for the rule
 ![](img/lcvs3.png) <br>
-######
+###### Our LSASS acess detection rule firing in LimaCharlie
 ![](img/lcvs4.png) <br>
-######
+###### Viewing the timeline in LimaCharlie displaying our C2 payload being executed
 ![](img/lc11.png) <br>
-######
+###### Viewing sensitive process access in the LimaCharlie timeline displaying our C2 payload being executed
 ![](img/lc10.png) <br>
-######
+###### Viewing network connections in the LimaCharlie timeline displaying our C2 payload being executed
 ![](img/lc9.png) <br>
-######
+###### Viewing new processes in the LimaCharlie timeline displaying our C2 payload being executed
 ![](img/lc8.png) <br>
-######
+###### Viewing our compromised Windows host's Downloads folder displaying our C2 payload
 ![](img/lc7.png) <br>
-######
+###### Viewing suspicious network connections in LimaCharlie
 ![](img/lc6.png) <br>
-######
+###### Viewing suspicious network connections in LimaCharlie showing our C2 payload
 ![](img/lc5.png) <br>
 ######
 ![](img/lc4.png) <br>
