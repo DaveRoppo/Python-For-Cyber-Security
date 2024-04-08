@@ -72,83 +72,83 @@ The following home lab configuration and accompanying exercises were inspired by
 ![](img/proc.png) <br>
 ###### Delete
 ![](img/priv-info.png) <br>
-###### Using our shell to view running processes on our compromised Windows VM
+###### Using our shell to view privledges on our compromised Windows host
 ![](img/priv.png) <br>
-###### Viewing the timeline in LimaCharlie displaying our C2 payload being executed
+###### Using our shell to view network connections on our compromised Windows VM with netstat
 ![](img/netstat.png) <br>
-###### Running "vssadmin delete shadows /all" on our compromised Windows VM (Typical during ransomware infections)
+###### Viewing the timeline in LimaCharlie displaying our C2 payload being executed
 ![](img/lsass.png) <br>
-###### Using the VirusTotal intergration on LimaCharlie to search the hash of our C2 Payload
+###### running "vssadmin delete shadows /all" on our compromised Windows VM (Typical during ransomware infections)
 ![](img/vs1.png) <br>
-###### VirusTotl showing no results for the C2 payload doesn't mean we're in the clear!
+###### Using the VirusTotal intergration on LimaCharlie to search the hash of our C2 Payload
 ![](img/vt1.png) <br>
-###### LimaCharlie detection rule firing following the deletion of shadow copies on our compromised host
+###### VirusTotl showing no results for the C2 payload doesn't mean we're in the clear!
 ![](img/vt2.png) <br>
 ###### LimaCharlie detection rule firing following the deletion of shadow copies on our compromised host
 ![](img/lcvs.png) <br>
-###### LimaCharlie timeline showing the deletion of shadow copies command being run
+###### LimaCharlie detection rule firing following the deletion of shadow copies on our compromised host
 ![](img/lcvs2.png) <br>
-###### LimaCharlie shadow copies deletion detection displaying references for the rule
+###### LimaCharlie timeline showing the deletion of shadow copies command being run
 ![](img/lcvs3.png) <br>
-###### Our LSASS acess detection rule firing in LimaCharlie
+###### LimaCharlie shadow copies deletion detection displaying references for the rule
 ![](img/lcvs4.png) <br>
-###### Viewing the timeline in LimaCharlie displaying our C2 payload being executed
+###### Our LSASS acess detection rule firing in LimaCharlie
 ![](img/lc11.png) <br>
 ###### Viewing sensitive process access in the LimaCharlie timeline displaying our C2 payload being executed
 ![](img/lc10.png) <br>
-###### Viewing network connections in the LimaCharlie timeline displaying our C2 payload being executed
+###### Viewing sensitive process access in the LimaCharlie timeline displaying our C2 payload being executed
 ![](img/lc9.png) <br>
-###### Viewing new processes in the LimaCharlie timeline displaying our C2 payload being executed
+###### Viewing network connections in the LimaCharlie timeline displaying our C2 payload being executed
 ![](img/lc8.png) <br>
-###### Viewing our compromised Windows host's Downloads folder displaying our C2 payload
+###### Viewing new processes in the LimaCharlie timeline displaying our C2 payload being executed
 ![](img/lc7.png) <br>
-###### Viewing suspicious network connections in LimaCharlie
+###### Viewing new documents in LimaCharlie showing our C2 Payload
 ![](img/lc6.png) <br>
-###### Viewing suspicious network connections in LimaCharlie showing our C2 payload
+###### Viewing our compromised Windows host's Downloads folder displaying our C2 payload
 ![](img/lc5.png) <br>
-######
+###### Viewing suspicious network connections in LimaCharlie
 ![](img/lc4.png) <br>
-######
+###### LimaCharlie displaying our network connection with the attacking Ubuntu VM
 ![](img/lc3.png) <br>
-######
+###### Drilling down on network connections for the suspicious process on our Windows VM
 ![](img/lc2.png) <br>
-######
+###### Viewing running processes on our infected host using LimaCharlie
 ![](img/lc1.png) <br>
-######
+###### Saving our detection and response rule for shadow copy deletion
 ![](img/drvs3.png) <br>
-######
+###### Testing our detection and response rule for shadow copy deletion
 ![](img/drvs2.png) <br>
-######
+###### Crafting our detection and response rule for shadow copy deletion
 ![](img/drvs.png) <br>
-######
+###### Saving our detection rule for LSASS access
 ![](img/dr3.png) <br>
-######
+###### Testing our detection rule for LSASS access
 ![](img/dr2.png) <br>
-######
+###### Crafing our detection rule for LSASS access
 ![](img/dr1.png) <br>
-###### 
+###### Confirmation that our YARA rule picked up our Sliver payload 
 ![](img/console.png) <br>
-###### Our detections tab in LimaCharlie flooded with false positives 
+###### Testing our YARA rule
 ![](img/console2.png) <br>
-###### Tuning our suspicious svchost detection rule
+###### Our detections tab in LimaCharlie flooded with false positives 
 ![](img/svc.png) <br>
-###### Testing our tuned detection rule
+###### Tuning our suspicious svchost detection rule
 ![](img/svc2.png) <br>
-###### Viewing one of our false positives generated by our suspicious svchost execution detection rule
+###### Testing our tuned detection rule
 ![](img/svc3.png) <br>
-###### Viewing our svchost detection rule in preparation for tuning the false positive
+###### Viewing one of our false positives generated by our suspicious svchost execution detection rule
 ![](img/svc4.png) <br>
-###### Crafting a detection rule for suspicious svchost execution
+###### Viewing our svchost detection rule in preparation for tuning the false positive
 ![](img/svc5.png) <br>
-###### Our YARA detection firing after the executable is launched from our Downloads folder
+###### Crafting a detection rule for suspicious svchost execution
 ![](img/svc6.png) <br>
-###### Our YARA detection firing after the executable is dropped in our Downloads folder
+###### Our YARA detection firing after the executable is launched from our Downloads folder
 ![](img/yara-mem.png) <br>
-###### Automating our YARA scan for processes launched from our Downloads folder
+###### Our YARA detection firing after the executable is dropped in our Downloads folder
 ![](img/yara-dr.png) <br>
-###### Automating our YARA scan for executables that are downloaded to our Downloads folder
+###### Automating our YARA scan for processes launched from our Downloads folder
 ![](img/yara-rule1.png) <br>
-###### Crafting our YARA detection in memory rule so we can be alerted of our of YARA findings
+###### Automating our YARA scan for executables that are downloaded to our Downloads folder
 ![](img/yara-rule2.png) <br>
 ###### Crafting our YARA detection in memory rule so we can be alerted of our of YARA findings
 ![](img/yara-rule3.png) <br>
