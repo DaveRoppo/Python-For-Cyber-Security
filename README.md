@@ -24,6 +24,8 @@
 
 #### [Security Onion](https://github.com/DaveRoppo/Cyber-Security/tree/main/Blue%20Team/Malware%20Traffic%20Analysis/Redline-Stealer)
 
+#### [LimaCharlie EDR](https://github.com/DaveRoppo/Cyber-Security/blob/main/Labs/SOC%20Analyst%20Home%20Lab/Readme.md)
+
 #### [Microsoft Sentinel SIEM Lab](https://github.com/DaveRoppo/Cyber-Security/tree/main/Labs/Microsoft%20Sentinel%20(SIEM)%20Lab)
 
 #### [Nessus Vulnerability Management Lab](https://github.com/DaveRoppo/Cyber-Security/tree/main/Labs/Vulnerability%20Management%20Lab)
