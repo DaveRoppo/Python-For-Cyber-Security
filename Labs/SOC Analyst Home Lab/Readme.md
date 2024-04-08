@@ -31,7 +31,7 @@ The following home lab configuration and accompanying exercises were inspired by
 ###### Running Sliver Server on our Ubuntu Vm
 ![](img/sl2.png) <br>
 ###### Generating and verifying our Sliver C2 payload on the Ubuntu Vm 
-![](img/implant4-2.png) <br>
+![](img/implant4-1.png) <br>
 ###### Starting a HTTP listener using Sliver on the Ubuntu VM
 ![](img/implant4-4.png) <br>
 ###### Running our C2 Payload (READY_GONG.exe) on the victim Windows host
