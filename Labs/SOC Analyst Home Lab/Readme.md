@@ -127,37 +127,37 @@ The following home lab configuration and accompanying exercises were inspired by
 ######
 ![](img/dr1.png) <br>
 ######
-![](console.png) <br>
+![](img/console.png) <br>
 ######
-![](console2.png) <br>
+![](img/console2.png) <br>
 ######
-![](svc.png) <br>
+![](img/svc.png) <br>
 ######
-![](svc2.png) <br>
+![](img/svc2.png) <br>
 ######
-![](svc3.png) <br>
+![](img/svc3.png) <br>
 ######
-![](svc4.png) <br>
+![](img/svc4.png) <br>
 ######
-![](svc5.png) <br>
+![](img/svc5.png) <br>
 ######
-![](svc6.png) <br>
+![](img/svc6.png) <br>
 ######
-![](yara-mem.png) <br>
+![](img/yara-mem.png) <br>
 ######
-![](yara-dr.png) <br>
+![](img/yara-dr.png) <br>
 ######
-![](yara-rule1.png) <br>
+![](img/yara-rule1.png) <br>
 ######
-![](yara-rule2.png) <br>
+![](img/yara-rule2.png) <br>
 ######
-![](yara-rule3.png) <br>
+![](img/yara-rule3.png) <br>
 ######
-![](yara-rule4.png) <br>
+![](img/yara-rule4.png) <br>
 ######
-![](yara-rule5.png) <br>
+![](img/yara-rule5.png) <br>
 ######
-![](yara-rule6.png) <br>
+![](img/yara-rule6.png) <br>
 
 
 
