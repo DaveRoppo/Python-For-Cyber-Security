@@ -1,4 +1,4 @@
-# SOC Analyst Home Lab
+# LimaCharlie EDR Lab
 ### Acknowledgements
 The following home lab configuration and accompanying exercises were inspired by Eric Capuano's blog series:
 [So you want to be a SOC Analyst?](https://blog.ecapuano.com/p/so-you-want-to-be-a-soc-analyst-intro?sd=pf)
