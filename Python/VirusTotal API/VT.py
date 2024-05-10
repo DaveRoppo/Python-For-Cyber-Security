@@ -3,7 +3,7 @@ import requests
 from datetime import datetime
 
 #setup API key and Base URL
-api_key = '9213f9f01f698318ce7e189dfe56ee9e41ed6de5a4bea9ea7aeddf687c4a38f4'
+api_key = 'api-key'
 base_URL = 'https://www.virustotal.com/api/v3/'
 
 def get_user_input():
