@@ -20,10 +20,15 @@ This project is licensed under the MIT License - see the [LICENSE.md](https://gi
 
 This Powershell script was developed with help of the following references:
 
+#####
 [GIAC - Hunting and Gatherting with Powershell](https://www.giac.org/research-papers/38842/)
+#####
 [Windows Incident Response Basic](https://www.securitynewspaper.com/2018/10/06/windows-incidents-response-basics/)
+#####
 [Windows 11 Incident Response](https://medium.com/@reotmani/windows-incident-response-windows-11-56129163b40d)
+#####
 [Incident Response: Windows Cheatsheet](https://gist.github.com/RomelSan/9ebef17aa9aa061d6b32e2e250181942)
-[UMD: Incident Response Steps - Potentially Compromised Windows System]((https://itsupport.umd.edu/itsupport?id=kb_article_view&sysparm_article=KB0013906))
+#####
+[UMD: Incident Response Steps - Potentially Compromised Windows System](https://itsupport.umd.edu/itsupport?id=kb_article_view&sysparm_article=KB0013906)
 
 
