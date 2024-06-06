@@ -13,6 +13,7 @@ In this project, using Microsoft Azure, I set up Microsoft Sentinel and connect 
 - geolocation.io
 - Remote Desktop (RDP) 
 - PowerShell
+- Kusto Query Language (KQL)
 
 ## Result
 
