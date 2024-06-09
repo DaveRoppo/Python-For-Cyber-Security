@@ -9,7 +9,7 @@ This PowerShell script is designed to automate early actions taken during the Id
 						subfolders that store text files containing outputs from various system commands. These outputs
 						include general
 						computer information, user account details, running processes and services,
-						network activities, firewall status,startup programs, and scheduled taks. The script is, of
+						network activities, firewall status, startup programs, and scheduled taks. The script is, of
 						course, not all-inclusive. However, it is meant to automate the collection of relevant data and
 						serve as a starting point from which one can pivot for further analysis.
 
