@@ -1,7 +1,7 @@
 # About
 
 ## Automating Windows Incident Response Playbook
-This PowerShell script is designed to automate early actions taken during the Identification
+This PowerShell script is designed to automate early actions taken during the Detection & Analysis
 						Phase of the
 						Incident Response Lifecycle for Windows systems. It facilitates quick and organized data
 						collection for
